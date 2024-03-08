@@ -48,7 +48,7 @@ public class HomePage extends BaseClass_TJ{
 		Thread.sleep(2000);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		driver.findElement(By.xpath("//android.widget.TextView[@text=\"Latest\"]")).click();
-		driver.findElement(By.xpath("//android.widget.TextView[@text=\"View All Latest Tractors\"]")).click();
+		driver.findElement(By.xpath("//android.widget.TextView[@text=\"View All Latest ractors\"]")).click();
 		Thread.sleep(2000);
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		Thread.sleep(3000);
