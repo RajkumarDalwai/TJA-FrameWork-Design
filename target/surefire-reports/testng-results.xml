@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-08T21:01:47 IST" name="Suite" finished-at="2024-03-08T21:02:52 IST" duration-ms="64559">
+  <suite started-at="2024-03-08T21:16:18 IST" name="Suite" finished-at="2024-03-08T21:17:30 IST" duration-ms="72153">
     <groups>
     </groups>
-    <test started-at="2024-03-08T21:01:47 IST" name="End to End Homepage" finished-at="2024-03-08T21:02:52 IST" duration-ms="64559">
+    <test started-at="2024-03-08T21:16:18 IST" name="End to End Homepage" finished-at="2024-03-08T21:17:30 IST" duration-ms="72153">
       <class name="org.tractorjunction.HomePage">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:01:47 IST" name="ConfigureAppium" finished-at="2024-03-08T21:02:00 IST" duration-ms="12483" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:16:18 IST" name="ConfigureAppium" finished-at="2024-03-08T21:16:36 IST" duration-ms="18386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:00 IST" name="preSetup" finished-at="2024-03-08T21:02:00 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:16:36 IST" name="preSetup" finished-at="2024-03-08T21:16:36 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="LoginTest()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:00 IST" name="LoginTest" finished-at="2024-03-08T21:02:18 IST" duration-ms="18503" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:16:36 IST" name="LoginTest" finished-at="2024-03-08T21:16:53 IST" duration-ms="16287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:18 IST" name="preSetup" finished-at="2024-03-08T21:02:19 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:16:53 IST" name="preSetup" finished-at="2024-03-08T21:16:53 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="PopupClose()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:19 IST" name="PopupClose" finished-at="2024-03-08T21:02:26 IST" duration-ms="7468" status="PASS">
+        <test-method signature="PopupClose()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:16:53 IST" name="PopupClose" finished-at="2024-03-08T21:17:02 IST" duration-ms="9204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PopupClose -->
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:26 IST" name="preSetup" finished-at="2024-03-08T21:02:26 IST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:17:02 IST" name="preSetup" finished-at="2024-03-08T21:17:02 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method signature="Redirections()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:26 IST" name="Redirections" finished-at="2024-03-08T21:02:50 IST" duration-ms="24197" status="FAIL">
+        <test-method signature="Redirections()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:17:02 IST" name="Redirections" finished-at="2024-03-08T21:17:28 IST" duration-ms="26146" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -39,9 +39,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [916312ca-9b95-42f4-9c47-ace029c15120, findElement {value=//android.widget.TextView[@text="View All Latest ractors"], using=xpath}]
+Command: [03673acc-b90a-4d71-b051-5503596c45cb, findElement {using=xpath, value=//android.widget.TextView[@text="View All Latest ractors"]}]
 Capabilities {appium:app: C:\Users\IT_Admin\eclipse-w..., appium:appPackage: com.tractorjunction, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\IT_Admin\eclipse-w..., automationName: UIAutomator2, deviceName: RajkumarDevice, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2880, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 11, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2782, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 916312ca-9b95-42f4-9c47-ace029c15120]]>
+Session ID: 03673acc-b90a-4d71-b051-5503596c45cb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -49,9 +49,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [916312ca-9b95-42f4-9c47-ace029c15120, findElement {value=//android.widget.TextView[@text="View All Latest ractors"], using=xpath}]
+Command: [03673acc-b90a-4d71-b051-5503596c45cb, findElement {using=xpath, value=//android.widget.TextView[@text="View All Latest ractors"]}]
 Capabilities {appium:app: C:\Users\IT_Admin\eclipse-w..., appium:appPackage: com.tractorjunction, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\IT_Admin\eclipse-w..., automationName: UIAutomator2, deviceName: RajkumarDevice, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2880, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 11, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2782, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 916312ca-9b95-42f4-9c47-ace029c15120
+Session ID: 03673acc-b90a-4d71-b051-5503596c45cb
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -92,16 +92,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Redirections -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tractorjunction.HomePage@59b38691]" started-at="2024-03-08T21:02:51 IST" name="tearDown" finished-at="2024-03-08T21:02:52 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.tractorjunction.HomePage@3c7c886c]" started-at="2024-03-08T21:17:29 IST" name="tearDown" finished-at="2024-03-08T21:17:30 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

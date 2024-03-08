@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\IT_Admin\eclipse-workspace\TJAFrameworkDesign\TestNGSuites\testng.xml</span>
+                    <span>C:\Users\IT_Admin\eclipse-workspace\TJAFrameworkDesign\TestNGSuites\testng_Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -153,9 +153,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.21&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [916312ca-9b95-42f4-9c47-ace029c15120, findElement {value=//android.widget.TextView[@text=&quot;View All Latest ractors&quot;], using=xpath}]
+Command: [03673acc-b90a-4d71-b051-5503596c45cb, findElement {using=xpath, value=//android.widget.TextView[@text=&quot;View All Latest ractors&quot;]}]
 Capabilities {appium:app: C:\Users\IT_Admin\eclipse-w..., appium:appPackage: com.tractorjunction, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\IT_Admin\eclipse-w..., automationName: UIAutomator2, deviceName: RajkumarDevice, platformName: ANDROID}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2880, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 11, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2782, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 916312ca-9b95-42f4-9c47-ace029c15120
+Session ID: 03673acc-b90a-4d71-b051-5503596c45cb
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -168,7 +168,7 @@ Session ID: 916312ca-9b95-42f4-9c47-ace029c15120
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.tractorjunction.HomePage.Redirections(HomePage.java:51)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -199,17 +199,17 @@ Session ID: 916312ca-9b95-42f4-9c47-ace029c15120
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\IT_Admin\eclipse-workspace\TJAFrameworkDesign\TestNGSuites\testng.xml</span>
+            <span class="header-content">C:\Users\IT_Admin\eclipse-workspace\TJAFrameworkDesign\TestNGSuites\testng_Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;org.tractorjunction.testUtils.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;End to End Homepage&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End to End Homepage&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.tractorjunction.HomePage&quot;/&gt;
     &lt;/classes&gt;
@@ -255,20 +255,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Redirections')
 data.setCell(0, 2, 'org.tractorjunction.HomePage')
-data.setCell(0, 3, 24197);
+data.setCell(0, 3, 26146);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LoginTest')
 data.setCell(1, 2, 'org.tractorjunction.HomePage')
-data.setCell(1, 3, 18503);
+data.setCell(1, 3, 16287);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'PopupClose')
 data.setCell(2, 2, 'org.tractorjunction.HomePage')
-data.setCell(2, 3, 7468);
+data.setCell(2, 3, 9204);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -301,33 +301,33 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">12499 ms</span>
+                <span class="method-start">18404 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">12673 ms</span>
+                <span class="method-start">18662 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">31190 ms</span>
+                <span class="method-start">34960 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">PopupClose</span>
-                <span class="method-start">31302 ms</span>
+                <span class="method-start">35064 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">preSetup</span>
-                <span class="method-start">38772 ms</span>
+                <span class="method-start">44269 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Redirections</span>
-                <span class="method-start">38958 ms</span>
+                <span class="method-start">44398 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">64157 ms</span>
+                <span class="method-start">71731 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

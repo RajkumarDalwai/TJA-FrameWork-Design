@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.tractorjunction.testUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End to End Homepage(failed)" verbose="0">
+    <classes>
+      <class name="org.tractorjunction.HomePage">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="Redirections"/>
+          <include name="preSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.tractorjunction.HomePage -->
+    </classes>
+  </test> <!-- End to End Homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
