@@ -9,7 +9,7 @@
 
   <test thread-count="5" name="End to End Homepage">
     <classes>
-      <class name="org.tractorjunction.HomePage"/>
+      <class name="org.tractorjunction.Module_HP"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

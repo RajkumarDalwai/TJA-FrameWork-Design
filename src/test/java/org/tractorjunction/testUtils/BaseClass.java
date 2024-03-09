@@ -17,7 +17,7 @@ import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 
-public class BaseClass_TJ {
+public class BaseClass {
 
 	public AndroidDriver driver;
 	public AppiumDriverLocalService service;
@@ -35,7 +35,7 @@ public class BaseClass_TJ {
 	
 //	options.setApp("C:\\Users\\IT_Admin\\eclipse-workspace\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 //	options.setApp("C:\\Users\\IT_Admin\\eclipse-workspace\\Appium\\src\\test\\java\\resources\\General-Store.apk");
-	options.setApp("C:\\Users\\IT_Admin\\eclipse-workspace\\TJAFrameworkDesign\\src\\test\\java\\org\\tractorjunction\\resources\\TJ_3.8.3.apk");	
+	options.setApp("C:\\Users\\IT_Admin\\eclipse-workspace\\TJATestAutomationFramework\\src\\test\\java\\org\\tractorjunction\\resources\\TJ_3.8.3.apk");	
 	
 //	options.setChromedriverExecutable("C:\\Users\\IT_Admin\\Downloads\\chromedriver_win32\\chromedriver.exe"); //for emulator
 //	options.setChromedriverExecutable("C:\\Users\\IT_Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"); //real device

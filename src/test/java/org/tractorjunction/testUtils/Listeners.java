@@ -12,7 +12,7 @@ import com.aventstack.extentreports.Status;
 
 import io.appium.java_client.AppiumDriver;
 
-public class Listeners extends BaseClass_TJ implements ITestListener{
+public class Listeners extends BaseClass implements ITestListener{
 	ExtentTest test;
 	ExtentReports extent = ExtentReporterTestNG.getReporterObject();
 	AppiumDriver driver;

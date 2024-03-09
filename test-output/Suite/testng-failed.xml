@@ -6,14 +6,14 @@
   </listeners>
   <test thread-count="5" name="End to End Homepage(failed)">
     <classes>
-      <class name="org.tractorjunction.HomePage">
+      <class name="org.tractorjunction.Module_HP">
         <methods>
-          <include name="ConfigureAppium"/>
-          <include name="Redirections"/>
-          <include name="preSetup"/>
           <include name="tearDown"/>
+          <include name="TJA_TC_HP_BS_003"/>
+          <include name="preSetup"/>
+          <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- org.tractorjunction.HomePage -->
+      </class> <!-- org.tractorjunction.Module_HP -->
     </classes>
   </test> <!-- End to End Homepage(failed) -->
 </suite> <!-- Failed suite [Suite] -->
