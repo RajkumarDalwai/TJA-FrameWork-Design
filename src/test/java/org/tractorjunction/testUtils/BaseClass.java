@@ -43,14 +43,14 @@ public class BaseClass {
 //	options.setCapability("browserName", "Chrome");
 	
 	driver = new AndroidDriver(new URL(" http://127.0.0.1:4723/"), options);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	
 	}
 	
 	public String getScreenshotPath (String testCaseName, AppiumDriver driver) throws IOException
 	{
 		File source = driver.getScreenshotAs(OutputType.FILE);
-		String destinationFile = System.getProperty("user.dir")+"\\test-output\\Screenshots\\"+testCaseName+".png";
+		String destinationFile = System.getProperty("user.dir")+"\\reports"+testCaseName+".png";
 		FileUtils.copyFile(source, new File(destinationFile));
 		return destinationFile;
 	}

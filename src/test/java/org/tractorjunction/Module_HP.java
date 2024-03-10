@@ -51,5 +51,6 @@ public class Module_HP extends BaseClass{
 		driver.findElement(By.xpath("//android.widget.TextView[@text=\"View All Latest ractors\"]")).click();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
 }
